@@ -43,7 +43,10 @@ public class CordovaUri {
      * We always expect a FileProvider string to be passed in for the file that we create
      *
      */
-    CordovaUri (Uri inputUri)
+    //fuxb modify +++
+    //CordovaUri (Uri inputUri)
+    public CordovaUri (Uri inputUri)
+    //fuxb modify ---
     {
         //Determine whether the file is a content or file URI
         if(inputUri.getScheme().equals("content"))
